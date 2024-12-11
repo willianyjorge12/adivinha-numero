@@ -1,1 +1,2 @@
-# adivinha-numero
+# JogoAdivinha
+Nesse projeto desenvolvi um jogo de adivinhar numero

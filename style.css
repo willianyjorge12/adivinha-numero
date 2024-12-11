@@ -1,0 +1,89 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1e2a47;
+    /* Azul escuro */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.game-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    /* Fundo branco com leve transparência */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    /* Efeito de desfoque no fundo */
+}
+
+h1 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+input {
+    padding: 12px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: 2px solid #004e92;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #f4f7fa;
+}
+
+input:focus {
+    border-color: #003366;
+    outline: none;
+}
+
+button {
+    background-color: #004e92;
+    /* Azul escuro */
+    color: white;
+    padding: 12px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button:hover {
+    background-color: #003366;
+    /* Cor mais escura ao passar o mouse */
+}
+
+#restart-btn {
+    background-color: #f44336;
+    margin-top: 20px;
+}
+
+#restart-btn:hover {
+    background-color: #e53935;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+#message {
+    color: #f44336;
+    font-weight: bold;
+}
+
+#attempts {
+    color: #004e92;
+    font-weight: 500;
+}
